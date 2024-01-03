@@ -1,6 +1,6 @@
 ---
-permalink: /central/
-title: "Central"
+permalink: /about/
+title: "About"
 excerpt: "Test repository for notes and projects"
 layouts_gallery:
   - url: https://collinization.wordpress.com/tag/marvin-the-robot/
