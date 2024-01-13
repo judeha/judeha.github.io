@@ -17,5 +17,3 @@ Test repository for misc. notes and project documentation
 ## Why?
 
 Just for fun. Here's a nice illustration by Collin J. Wood:
-
-<!-- {% include gallery id="layouts_gallery" layout="half" %} -->

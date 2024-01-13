@@ -30,7 +30,7 @@ url: "https://judeha.github.io" # the base hostname & protocol for your site, e.
 # Build settings
 theme: minima
 # theme: minimal-mistakes-jekyll
-markdown: kramdown
+# markdown: kramdown
 # minimal_mistakes_skin    : "plum" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # plugins:
