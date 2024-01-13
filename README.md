@@ -1,2 +1,4 @@
 # judeha.github.io
-test website
+---
+permalink: /index.html/
+---
