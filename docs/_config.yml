@@ -31,8 +31,35 @@ url: "https://judeha.github.io" # the base hostname & protocol for your site, e.
 # Build settings
 theme: minimal-mistakes-jekyll
 markdown: kramdown
+minimal_mistakes_skin    : "plum" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed # only original one
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Read Files
+include: 
+  - _pages
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
